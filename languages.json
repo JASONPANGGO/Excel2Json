@@ -1,0 +1,635 @@
+{
+  "fallbackLocale": "en",
+  "languages": {
+    "zh-cn": {
+      "放置一个兵": {
+        "value": "放置一个兵",
+        "stage": "start",
+        "style": {
+          "fontSize": 76,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 12
+        }
+      },
+      "download_btn": {
+        "value": "Download",
+        "stage": "start",
+        "group": "group_download",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 50,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "GATE": {
+        "value": "GATE",
+        "stage": "game",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffffff",
+          "alpha": 1,
+          "stroke": 4,
+          "strokeColor": "#ffffff",
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4,
+          "gradient": true,
+          "startColor": "#e40a00",
+          "endColor": "#ffcc00"
+        }
+      },
+      "download_btn1": {
+        "value": "Download",
+        "stage": "game",
+        "group": "group_download",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 50,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret1": {
+        "value": 200,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret1_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret11": {
+        "value": 200,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret1_selection.jpg",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "money_turret2": {
+        "value": 300,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret2_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret21": {
+        "value": 300,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret2_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "money_turret3": {
+        "value": 400,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret3_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret31": {
+        "value": 400,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret3_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "defeated_word": {
+        "value": "DEFEATED",
+        "stage": "ending",
+        "group": "group_defeated",
+        "resource": "BE_board.png",
+        "style": {
+          "fontSize": 100,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 16,
+          "shadowOffsetY": 8,
+          "gradient": true,
+          "startColor": "#f1fdff",
+          "endColor": "#708990"
+        }
+      },
+      "defeated_btn": {
+        "value": "Try again",
+        "stage": "ending",
+        "group": "group_defeated",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 70,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "win_word": {
+        "value": "Swipe to Continue",
+        "stage": "ending",
+        "group": "group_win",
+        "resource": "HE_arrow.png",
+        "style": {
+          "fontSize": 64,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9,
+          "shadowOffsetY": 4
+        }
+      }
+    },
+    "en": {
+      "放置一个兵": {
+        "value": "放置一个兵",
+        "stage": "start",
+        "style": {
+          "fontSize": 76,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 12
+        }
+      },
+      "download_btn": {
+        "value": "Download",
+        "stage": "start",
+        "group": "group_download",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 50,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "GATE": {
+        "value": "GATE",
+        "stage": "game",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffffff",
+          "alpha": 1,
+          "stroke": 4,
+          "strokeColor": "#ffffff",
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4,
+          "gradient": true,
+          "startColor": "#e40a00",
+          "endColor": "#ffcc00"
+        }
+      },
+      "download_btn1": {
+        "value": "Download",
+        "stage": "game",
+        "group": "group_download",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 50,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret1": {
+        "value": 200,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret1_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret11": {
+        "value": 200,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret1_selection.jpg",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "money_turret2": {
+        "value": 300,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret2_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret21": {
+        "value": 300,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret2_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "money_turret3": {
+        "value": 400,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret3_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret31": {
+        "value": 400,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret3_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "defeated_word": {
+        "value": "DEFEATED",
+        "stage": "ending",
+        "group": "group_defeated",
+        "resource": "BE_board.png",
+        "style": {
+          "fontSize": 100,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 16,
+          "shadowOffsetY": 8,
+          "gradient": true,
+          "startColor": "#f1fdff",
+          "endColor": "#708990"
+        }
+      },
+      "defeated_btn": {
+        "value": "Try again",
+        "stage": "ending",
+        "group": "group_defeated",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 70,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "win_word": {
+        "value": "Swipe to Continue",
+        "stage": "ending",
+        "group": "group_win",
+        "resource": "HE_arrow.png",
+        "style": {
+          "fontSize": 64,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9,
+          "shadowOffsetY": 4
+        }
+      }
+    },
+    "ko": {
+      "放置一个兵": {
+        "value": "放置一个兵",
+        "stage": "start",
+        "style": {
+          "fontSize": 76,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 12
+        }
+      },
+      "download_btn": {
+        "value": "Download",
+        "stage": "start",
+        "group": "group_download",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 50,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "GATE": {
+        "value": "GATE",
+        "stage": "game",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffffff",
+          "alpha": 1,
+          "stroke": 4,
+          "strokeColor": "#ffffff",
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4,
+          "gradient": true,
+          "startColor": "#e40a00",
+          "endColor": "#ffcc00"
+        }
+      },
+      "download_btn1": {
+        "value": "Download",
+        "stage": "game",
+        "group": "group_download",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 50,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret1": {
+        "value": 200,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret1_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret11": {
+        "value": 200,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret1_selection.jpg",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "money_turret2": {
+        "value": 300,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret2_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret21": {
+        "value": 300,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret2_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "money_turret3": {
+        "value": 400,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret3_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#cb9c83",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "money_turret31": {
+        "value": 400,
+        "stage": "game",
+        "group": "group_selection",
+        "resource": "turret3_selection.png",
+        "style": {
+          "fontSize": 36,
+          "color": "#ffe400",
+          "alpha": 1,
+          "bold": true,
+          "enableGlow": true,
+          "glowColor": "#fffc00",
+          "glowBlur": 8
+        }
+      },
+      "defeated_word": {
+        "value": "DEFEATED",
+        "stage": "ending",
+        "group": "group_defeated",
+        "resource": "BE_board.png",
+        "style": {
+          "fontSize": 100,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 16,
+          "shadowOffsetY": 8,
+          "gradient": true,
+          "startColor": "#f1fdff",
+          "endColor": "#708990"
+        }
+      },
+      "defeated_btn": {
+        "value": "Try again",
+        "stage": "ending",
+        "group": "group_defeated",
+        "resource": "ctat_btn.png",
+        "style": {
+          "fontSize": 70,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffsetY": 4
+        }
+      },
+      "win_word": {
+        "value": "Swipe to Continue",
+        "stage": "ending",
+        "group": "group_win",
+        "resource": "HE_arrow.png",
+        "style": {
+          "fontSize": 64,
+          "color": "#ffffff",
+          "alpha": 1,
+          "bold": true,
+          "enableShadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9,
+          "shadowOffsetY": 4
+        }
+      }
+    }
+  }
+}
